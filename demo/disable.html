@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.8" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.31" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://vuepress-theme-hope-docs-demo.netlify.app/blogs/demo/disable.html"><meta property="og:site_name" content="皮卡丘"><meta property="og:title" content="布局与功能禁用"><meta property="og:description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。 本页面就是一个示例，禁用了如下功能: 导航栏 侧边栏 路径导航 页面信息 贡献者 编辑此页链接 更新时间 上一篇/下一篇 链接 评论 页脚 返回顶部按钮"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2024-03-18T02:59:10.000Z"><meta property="article:author" content="皮卡丘"><meta property="article:tag" content="禁用"><meta property="article:modified_time" content="2024-03-18T02:59:10.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"布局与功能禁用","image":[""],"dateModified":"2024-03-18T02:59:10.000Z","author":[{"@type":"Person","name":"皮卡丘","url":"https://www.baidu.com"}]}</script><link rel="icon" href="logo.jpeg"><title>布局与功能禁用 | 皮卡丘</title><meta name="description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。 本页面就是一个示例，禁用了如下功能: 导航栏 侧边栏 路径导航 页面信息 贡献者 编辑此页链接 更新时间 上一篇/下一篇 链接 评论 页脚 返回顶部按钮">
+    <link rel="preload" href="/blogs/assets/style-xF2HToUu.css" as="style"><link rel="stylesheet" href="/blogs/assets/style-xF2HToUu.css">
+    <link rel="modulepreload" href="/blogs/assets/app-CqeP-ydn.js"><link rel="modulepreload" href="/blogs/assets/disable.html-BtM9_xwZ.js"><link rel="modulepreload" href="/blogs/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    <link rel="prefetch" href="/blogs/assets/index.html-DnLF96Fz.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-bqimpnpO.js" as="script"><link rel="prefetch" href="/blogs/assets/encrypt.html-D1O7jkp0.js" as="script"><link rel="prefetch" href="/blogs/assets/layout.html-5lnnnKkx.js" as="script"><link rel="prefetch" href="/blogs/assets/markdown.html-CiJSREMe.js" as="script"><link rel="prefetch" href="/blogs/assets/page.html-D9Y0HUrB.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-3U7HEbIP.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-S101PyH3.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-EXxTkTzF.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-bXs5zNFV.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-CjWQCPmi.js" as="script"><link rel="prefetch" href="/blogs/assets/baz.html-BsJzK5fz.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-bE5aeVHj.js" as="script"><link rel="prefetch" href="/blogs/assets/ray.html-DhihTDKl.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-IwuebXSa.js" as="script"><link rel="prefetch" href="/blogs/assets/Redis分布式锁.html-BZ_vq2Us.js" as="script"><link rel="prefetch" href="/blogs/assets/布隆过滤器与布谷鸟过滤器.html-D6TSzWxp.js" as="script"><link rel="prefetch" href="/blogs/assets/AOF持久化.html-BhEaqNbS.js" as="script"><link rel="prefetch" href="/blogs/assets/RDB持久化.html-BQxT8vAo.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-CuA5PBwz.js" as="script"><link rel="prefetch" href="/blogs/assets/大Key对持久化的影响.html-DeoH6ifF.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-Be0ojLAc.js" as="script"><link rel="prefetch" href="/blogs/assets/Redis数据类型及应用场景.html-te_KbNZh.js" as="script"><link rel="prefetch" href="/blogs/assets/Redis数据结构.html-CNWtpNmB.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-BM4SUo8V.js" as="script"><link rel="prefetch" href="/blogs/assets/内存淘汰策略.html-GdJpRyIt.js" as="script"><link rel="prefetch" href="/blogs/assets/过期删除策略.html-DMEmxcaX.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-BIh33g_p.js" as="script"><link rel="prefetch" href="/blogs/assets/数据库与缓存一致性.html-BaYsYWKL.js" as="script"><link rel="prefetch" href="/blogs/assets/缓存类型有哪些？经典的缓存策略有哪些？.html-Bao4y0_a.js" as="script"><link rel="prefetch" href="/blogs/assets/缓存雪崩、缓存击穿与缓存穿透.html-o13xPrVs.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-xiIXA6cW.js" as="script"><link rel="prefetch" href="/blogs/assets/主从模式.html-ol4Sav9_.js" as="script"><link rel="prefetch" href="/blogs/assets/哨兵模式.html-BZcJduk7.js" as="script"><link rel="prefetch" href="/blogs/assets/集群模式.html-C6DliCnU.js" as="script"><link rel="prefetch" href="/blogs/assets/404.html-B77qcVQL.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-DbU5-O8P.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-BSxeSxGz.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-CYZP6RoG.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-BQb2sQ5z.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-DrSTzbT7.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-OuOY2X14.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-HjfqnOBO.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-Bc9hlVAb.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-DTRItax-.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-Bq_W85us.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-CLOmbDYv.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-BoHp7cZz.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-CvXXEPeO.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-BrXoxoVg.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-ofoiV6ev.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-DFRZWpWH.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-Clf8hye2.js" as="script"><link rel="prefetch" href="/blogs/assets/photoswipe.esm-SzV8tJDW.js" as="script"><link rel="prefetch" href="/blogs/assets/SearchResult-CjU8ZHu9.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-navbar no-sidebar has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!--[--><!----><!--]--><ul class="vp-sidebar-links"></ul><!--[--><!----><!--]--></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!--[--><!----><!--]--><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon iconfont icon-gears" style=""></span>布局与功能禁用</h1><!----><hr></div><!----><!--[--><!----><!--]--><div class="theme-hope-content"><p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p><!-- more --><p>本页面就是一个示例，禁用了如下功能:</p><ul><li>导航栏</li><li>侧边栏</li><li>路径导航</li><li>页面信息</li><li>贡献者</li><li>编辑此页链接</li><li>更新时间</li><li>上一篇/下一篇 链接</li><li>评论</li><li>页脚</li><li>返回顶部按钮</li></ul></div><!--[--><!----><!--]--><footer class="page-meta"><!----><div class="meta-item git-info"><!----><!----></div></footer><!----><!----><!--[--><!----><!--]--><!--]--></main><!--]--><!----></div><!--]--><!--[--><!----><!----><!--]--><!--]--></div>
+    <script type="module" src="/blogs/assets/app-CqeP-ydn.js" defer></script>
+  </body>
+</html>
